@@ -6,6 +6,10 @@
     - cover the of the document background with the "map-bg.jpg" image in the images directory. 
 */
 
+body {
+    font-family: Lato; font-size: 18px;
+    background-image: url("../images/map-bg.jpg")
+}
 
 nav {font-family: sans-serif;font-size: 10px;}
 #main {width: 900px; margin: 10px auto;}
@@ -17,7 +21,11 @@ nav {font-family: sans-serif;font-size: 10px;}
         - set the font color to #5d4037
 */
 
-
+h1{
+    font-family: Supermercado One; 
+    font-size: 45px;
+    color: #5d4037; 
+}
 /* 
     Update the following ruleset (#menu) to accomplish the following:
         - Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. 
@@ -25,24 +33,41 @@ nav {font-family: sans-serif;font-size: 10px;}
 #menu {
     columns: 400px 2;
     column-gap: 100px;
+    column-rule: 2px dashed rosybrown; 
 }
 
 section {padding-bottom: 50px;}
-h2 {margin: 0;}
+h2 {margin: 0; color: #6d4c41;}
 
 /* 
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
+#starters { 
+    font-variant: small-caps;
+}
 
+#soupssalads {
+    font-variant: small-caps;
+}
 
+#entrees {
+    font-variant: small-caps;
+}
+
+#desserts {
+    font-variant: small-caps;
+}
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
         - Set the font size to 20px
         - Make the font bold
 */
-
+dt {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 dd {margin: 0 0 12px 0; display: flex;}
 .details {order: 1;}
@@ -55,6 +80,8 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {
     order: 2;
     padding-left: 10px;
+    color: firebrick;
+    font-size: large; 
 }
 
 address {padding: 10px;}
@@ -63,3 +90,7 @@ address {padding: 10px;}
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
+
+footer {
+    border: 2px dashed rosybrown;
+}
