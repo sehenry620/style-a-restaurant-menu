@@ -44,19 +44,19 @@ h2 {margin: 0; color: #6d4c41;}
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
-#starters { 
+#starters h2 { 
     font-variant: small-caps;
 }
 
-#soupssalads {
+#soupssalads h2 {
     font-variant: small-caps;
 }
 
-#entrees {
+#entrees h2 {
     font-variant: small-caps;
 }
 
-#desserts {
+#desserts h2 {
     font-variant: small-caps;
 }
 /* 
